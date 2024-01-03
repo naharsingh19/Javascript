@@ -19,7 +19,7 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4) //pta karo
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
@@ -32,4 +32,4 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));  //gives an array
